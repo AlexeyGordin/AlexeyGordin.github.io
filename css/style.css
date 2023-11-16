@@ -1,0 +1,204 @@
+body {
+    display: block;
+    font: 1000 24pt 'Sarabun', sans-serif;
+    text-align: center;
+    background-color:whitesmoke
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+}
+
+p {
+    font: italic 30pt 'Sarabun', sans-serif;
+}
+
+#info_div {
+    display: flex;
+    width: 100%;
+    background-color:rgb(31, 31, 31);
+    color: rgb(67, 184, 83);
+}
+
+.desc_info_div {
+    text-align: left;
+    width: 50%;
+    margin: 30px;
+    padding-left: 20px;
+    border-left: 15px solid rgb(67, 184, 83)
+}
+
+.num_info_div {
+    text-align: right;
+    width: 50%;
+    margin: 30px;
+}
+
+#main_page {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    background-image: url(https://gurman-bel.ru/assets/uploads/2015/10/kitajskij-chaj-puer.jpg);
+    border-bottom: 20px solid rgb(0, 255, 85)
+}
+
+.title_box {
+    width: 100%;
+}
+
+.title_box h4 {
+    width: 20%;
+    background:rgb(45, 182, 75);
+    border: 4px solid rgb(31, 31, 31);
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    transition: all 200ms ease;
+}
+
+.title_box h4:hover {
+    width: 30%;
+    background:rgb(31, 31, 31);
+    color:rgb(218, 28, 28);
+    transition: all 200ms ease;
+}
+
+.title {
+    background-color:rgba(31, 31, 31, 0.575);
+    transition: all 200ms ease;
+}
+
+.title:hover {
+    background-color:rgba(31, 31, 31, 0.705);
+    font-size: 32pt;
+    transition: all 200ms ease;
+}
+
+.title h1{
+    width: 30%;
+    color:greenyellow;
+    font-weight: 1000;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.title h6{
+    width: 30%;
+    color:rgb(255, 255, 94);
+    font-style: italic;
+    text-align: right;
+    margin: auto;
+    padding: 0 15% 20px 0;
+}
+
+#page {
+    width: 100%;
+    align-items: center;
+}
+
+.page_info h1{
+    width: 100%;
+    font-weight: 1000;
+}
+
+#add {
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    align-items: center;
+    background-color:rgba(31, 31, 31, 0.575);
+    border-left: 25px solid rgb(31, 31, 31);
+}
+
+.add_text {
+    width: 60%;
+    padding: 0 10px 0 20px;
+    color:greenyellow;
+    text-align: right;
+}
+
+#feedback {
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    align-items: center;
+    background-color:rgba(14, 6, 6, 0.575);
+    border: 5px solid rgb(31, 31, 31);
+}
+
+.feedback_page {
+    width: 600px;
+    height: 200px;
+    max-height: 600px;
+    margin: 0;
+    background: url(https://sun9-79.userapi.com/4tlh2kiQabKadbjSGnByVmzlGgto4CqK0sgoHw/9h1NB40oJkE.jpg) 50% no-repeat;
+}
+
+.feedback_text {
+    width: 60%;
+    padding-right: 50px;
+    color:greenyellow;
+    text-align: right;
+}
+
+#work {
+    display: block;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    border: 15px ridge rgb(0, 255, 98);
+}
+
+.work_page {
+    width: 528px;
+    height: 528px;
+    margin: auto;
+    background: url(https://sun9-13.userapi.com/impg/xsTAYxMBbWXA1TQdA8gxpE5SVgj4cx5D7PjAVg/YlzwSZv4cwQ.jpg?size=807x606&quality=95&sign=ebc20e53396cccc88f94e8cddc53df96&c_uniq_tag=YgxwizedXswAFns0aQj9aA0rzo9rszxHN2ydPh1_5E4&type=album) 50% no-repeat;
+}
+
+.work_text p {
+    font: italic 1000 24pt 'Sarabun', sans-serif;
+    margin-bottom: 20px auto;
+}
+
+#trust {
+    display: block;
+    width: 40%;
+    margin: 40px auto;
+    align-items: center;
+    border: 15px ridge rgb(0, 255, 64);
+}
+
+.trust_page {
+    width: 640px;
+    height: 320px;
+    margin: 20px auto;
+    background: url(https://sun9-5.userapi.com/impg/O5-sDa9R0j7gWG9UC8J4vz9-Bfa30jmKN_2YdA/5_kOCMF4F2w.jpg?size=1080x720&quality=95&sign=1dc65196adf59408a5ed5f9c1e50911c&type=album) 50% no-repeat;
+}
+
+.trust_text p {
+    font: italic 1000 24pt 'Sarabun', sans-serif;
+    margin-bottom: 20px auto;
+}
+
+#end_page {
+    display: block;
+    width: 100%;
+    padding: 40px 40px 40px 70%;
+    border-top: 5px solid rgb(31, 31, 31);
+    background-color:rgb(22, 22, 22);
+}
+
+#end_page p {
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    color:greenyellow;
+    font: normal 1000 14pt 'Sarabun', sans-serif;
+    text-align: right;
+}
